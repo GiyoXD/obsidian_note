@@ -47,6 +47,7 @@
     "github": {
       "httpUrl": "https://api.githubcopilot.com/mcp/",
       "headers": {
+
       }
     },
     "mcp-installer": {

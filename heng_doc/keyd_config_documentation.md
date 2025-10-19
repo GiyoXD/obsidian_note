@@ -60,8 +60,8 @@ When you **hold down** the Caps Lock key, it activates a special layer with the 
     *   `Caps Lock + -`: Volume Down
     *   `Caps Lock + =`: Volume Up
 *   **Media Control**:
-    *   `Caps Lock + 7`: Previous Track
-    *   `Caps Lock + 8`: Next Track
+    *   `Caps Lock + 7`: Previous Song
+    *   `Caps Lock + 8`: Next Song
     *   `Caps Lock + 9`: Play/Pause
 *   **Line Navigation**:
     *   `Caps Lock + u`: Home (Beginning of Line)
@@ -73,11 +73,11 @@ When you **hold down** the Caps Lock key, it activates a special layer with the 
     *   `Caps Lock + p`: Page Up
     *   `Caps Lock + ;`: Page Down
 *   **Word-wise Movement**:
-    *   `Caps Lock + n`: Control + Left (Move cursor left by one word)
-    *   `Caps Lock + m`: Control + Right (Move cursor right by one word)
+    *   `Caps Lock + b`: Control + Left (Move cursor left by one word)
+    *   `Caps Lock + n`: Control + Right (Move cursor right by one word)
 *   **Deletion**:
-    *   `Caps Lock + d`: Delete (Forward Delete)
-    *   `Caps Lock + backspace`: Control + Backspace (Delete previous word)
+    *   `Caps Lock + d`: C-backspace (Delete previous word)
+    *   `Caps Lock + backspace`: C-backspace (Delete previous word)
 *   **Screenshot**:
     *   `Caps Lock + s`: Print Screen
 

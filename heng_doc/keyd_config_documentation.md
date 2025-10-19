@@ -109,32 +109,22 @@ For any key not listed above, `Caps Lock` acts as `Ctrl`. For example:
 capslock = overload(layer, esc)
 
 # ===================================================================
-# This is the ONLY layer definition.
-# When capslock is held, keyd will use these mappings.
+# CAPSLOCK SUPER KEY LAYER
 # ===================================================================
 [layer]
 # SECTION 1: Your custom high-priority keys.
-# Navigation
 h = left
 j = down
 k = up
 l = right
-
-# Word-wise Navigation
 b = C-left
 n = C-right
-
-# Deletion
 d = C-backspace
 backspace = C-backspace
-
-# Page Navigation
 u = home
 o = end
 p = pageup
 ; = pagedown
-
-# Media and System
 - = volumedown
 = = volumeup
 7 = previoussong
@@ -143,6 +133,10 @@ p = pageup
 [ = brightnessdown
 ] = brightnessup
 s = print
+
+# --- Special Functions ---
+z = toggle(numpad)    # FIXED: Hold Caps Lock, TAP Z to turn numpad ON/OFF
+space = capslock      # Hold Caps Lock, press Space to toggle actual Caps Lock
 
 
 # SECTION 2: Act like 'Control' for all other keys.
@@ -160,17 +154,38 @@ v = C-v
 w = C-w
 x = C-x
 y = C-y
-z = C-z
-
-1 = C-1
-2 = C-2
-3 = C-3
-4 = C-4
-5 = C-5
-6 = C-6
-0 = C-0
-
-space = C-space
 enter = C-enter
 tab = C-tab
-```
+
+
+# ===================================================================
+# NUMPAD LAYER
+# Activated by holding Caps Lock and tapping Z.
+# ===================================================================
+[numpad]
+# Top Row
+7 = kp7
+8 = kp8
+9 = kp9
+
+# Middle Row (U, I, O)
+u = kp4
+i = kp5
+o = kp6
+
+# Bottom Row (J, K, L)
+j = kp1
+k = kp2
+l = kp3
+
+# Last Row (M, ,, .)
+m = kp0
+. = kpdot
+, = macro(kp0 kp0) # The ',' key will output '00'
+
+# Numpad Operators
+p = kpasterisk
+; = kpslash
+[ = kpminus
+' = kpplus
+enter = kpenter```

@@ -1,0 +1,2 @@
+- if you have conflict order problem, just lay it in the id, make sub obj, and layout them orderly this will never make any conflict with the merging or thing that span because it know what to do if something increase we dont use static but runtime value
+- 

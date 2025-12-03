@@ -1,0 +1,60 @@
+{
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    },
+    "folderTrust": {
+      "enabled": true
+    }
+  },
+  "experimental": {
+    "useModelRouter": true
+  },
+  "general": {
+    "debugKeystrokeLogging": true,
+    "sessionRetention": {
+      "enabled": true
+    },
+    "vimMode": true,
+    "enablePromptCompletion": true
+  },
+  "output": {
+    "format": "json"
+  },
+  "ui": {
+    "showStatusInTitle": true,
+    "footer": {
+      "hideSandboxStatus": false
+    },
+    "showMemoryUsage": true,
+    "useFullWidth": false,
+    "accessibility": {
+      "disableLoadingPhrases": true,
+      "screenReader": false
+    }
+  },
+  "tools": {
+    "shell": {
+      "showColor": false
+    },
+    "useRipgrep": true,
+    "enableMessageBusIntegration": true
+  },
+  "ide": {
+    "enabled": true
+  },
+  "mcpServers": {
+    "github": {
+      "httpUrl": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+
+      }
+    },
+    "mcp-installer": {
+      "command": "npx",
+      "args": [
+        " @anaisbetts/mcp-installer"
+      ]
+    }
+  }
+}
